@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		278E81D81AD8CBB1003414A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E81D71AD8CBB1003414A6 /* AppDelegate.swift */; };
+		278E81DB1AD8CBB1003414A6 /* chesecake.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 278E81D91AD8CBB1003414A6 /* chesecake.xcdatamodeld */; };
+		278E81DD1AD8CBB1003414A6 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E81DC1AD8CBB1003414A6 /* MasterViewController.swift */; };
+		278E81DF1AD8CBB1003414A6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E81DE1AD8CBB1003414A6 /* DetailViewController.swift */; };
+		278E81E21AD8CBB1003414A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278E81E01AD8CBB1003414A6 /* Main.storyboard */; };
+		278E81E41AD8CBB1003414A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278E81E31AD8CBB1003414A6 /* Images.xcassets */; };
+		278E81E71AD8CBB1003414A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278E81E51AD8CBB1003414A6 /* LaunchScreen.xib */; };
+		278E81F31AD8CBB1003414A6 /* chesecakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E81F21AD8CBB1003414A6 /* chesecakeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		278E81ED1AD8CBB1003414A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 278E81CA1AD8CBB0003414A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 278E81D11AD8CBB1003414A6;
+			remoteInfo = chesecake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		278E81D21AD8CBB1003414A6 /* chesecake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chesecake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		278E81D61AD8CBB1003414A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278E81D71AD8CBB1003414A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		278E81DA1AD8CBB1003414A6 /* chesecake.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = chesecake.xcdatamodel; sourceTree = "<group>"; };
+		278E81DC1AD8CBB1003414A6 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		278E81DE1AD8CBB1003414A6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		278E81E11AD8CBB1003414A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		278E81E31AD8CBB1003414A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		278E81E61AD8CBB1003414A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		278E81EC1AD8CBB1003414A6 /* chesecakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chesecakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		278E81F11AD8CBB1003414A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278E81F21AD8CBB1003414A6 /* chesecakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chesecakeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		278E81CF1AD8CBB1003414A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278E81E91AD8CBB1003414A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		278E81C91AD8CBB0003414A6 = {
+			isa = PBXGroup;
+			children = (
+				278E81D41AD8CBB1003414A6 /* chesecake */,
+				278E81EF1AD8CBB1003414A6 /* chesecakeTests */,
+				278E81D31AD8CBB1003414A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		278E81D31AD8CBB1003414A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				278E81D21AD8CBB1003414A6 /* chesecake.app */,
+				278E81EC1AD8CBB1003414A6 /* chesecakeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		278E81D41AD8CBB1003414A6 /* chesecake */ = {
+			isa = PBXGroup;
+			children = (
+				278E81D71AD8CBB1003414A6 /* AppDelegate.swift */,
+				278E81DC1AD8CBB1003414A6 /* MasterViewController.swift */,
+				278E81DE1AD8CBB1003414A6 /* DetailViewController.swift */,
+				278E81E01AD8CBB1003414A6 /* Main.storyboard */,
+				278E81E31AD8CBB1003414A6 /* Images.xcassets */,
+				278E81E51AD8CBB1003414A6 /* LaunchScreen.xib */,
+				278E81D91AD8CBB1003414A6 /* chesecake.xcdatamodeld */,
+				278E81D51AD8CBB1003414A6 /* Supporting Files */,
+			);
+			path = chesecake;
+			sourceTree = "<group>";
+		};
+		278E81D51AD8CBB1003414A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				278E81D61AD8CBB1003414A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		278E81EF1AD8CBB1003414A6 /* chesecakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				278E81F21AD8CBB1003414A6 /* chesecakeTests.swift */,
+				278E81F01AD8CBB1003414A6 /* Supporting Files */,
+			);
+			path = chesecakeTests;
+			sourceTree = "<group>";
+		};
+		278E81F01AD8CBB1003414A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				278E81F11AD8CBB1003414A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		278E81D11AD8CBB1003414A6 /* chesecake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278E81F61AD8CBB1003414A6 /* Build configuration list for PBXNativeTarget "chesecake" */;
+			buildPhases = (
+				278E81CE1AD8CBB1003414A6 /* Sources */,
+				278E81CF1AD8CBB1003414A6 /* Frameworks */,
+				278E81D01AD8CBB1003414A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chesecake;
+			productName = chesecake;
+			productReference = 278E81D21AD8CBB1003414A6 /* chesecake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		278E81EB1AD8CBB1003414A6 /* chesecakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278E81F91AD8CBB1003414A6 /* Build configuration list for PBXNativeTarget "chesecakeTests" */;
+			buildPhases = (
+				278E81E81AD8CBB1003414A6 /* Sources */,
+				278E81E91AD8CBB1003414A6 /* Frameworks */,
+				278E81EA1AD8CBB1003414A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				278E81EE1AD8CBB1003414A6 /* PBXTargetDependency */,
+			);
+			name = chesecakeTests;
+			productName = chesecakeTests;
+			productReference = 278E81EC1AD8CBB1003414A6 /* chesecakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		278E81CA1AD8CBB0003414A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Saulo Mendes Martins";
+				TargetAttributes = {
+					278E81D11AD8CBB1003414A6 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					278E81EB1AD8CBB1003414A6 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 278E81D11AD8CBB1003414A6;
+					};
+				};
+			};
+			buildConfigurationList = 278E81CD1AD8CBB1003414A6 /* Build configuration list for PBXProject "chesecake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 278E81C91AD8CBB0003414A6;
+			productRefGroup = 278E81D31AD8CBB1003414A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				278E81D11AD8CBB1003414A6 /* chesecake */,
+				278E81EB1AD8CBB1003414A6 /* chesecakeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		278E81D01AD8CBB1003414A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278E81E21AD8CBB1003414A6 /* Main.storyboard in Resources */,
+				278E81E71AD8CBB1003414A6 /* LaunchScreen.xib in Resources */,
+				278E81E41AD8CBB1003414A6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278E81EA1AD8CBB1003414A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		278E81CE1AD8CBB1003414A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278E81DB1AD8CBB1003414A6 /* chesecake.xcdatamodeld in Sources */,
+				278E81D81AD8CBB1003414A6 /* AppDelegate.swift in Sources */,
+				278E81DD1AD8CBB1003414A6 /* MasterViewController.swift in Sources */,
+				278E81DF1AD8CBB1003414A6 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278E81E81AD8CBB1003414A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278E81F31AD8CBB1003414A6 /* chesecakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		278E81EE1AD8CBB1003414A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 278E81D11AD8CBB1003414A6 /* chesecake */;
+			targetProxy = 278E81ED1AD8CBB1003414A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		278E81E01AD8CBB1003414A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278E81E11AD8CBB1003414A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		278E81E51AD8CBB1003414A6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278E81E61AD8CBB1003414A6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		278E81F41AD8CBB1003414A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		278E81F51AD8CBB1003414A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		278E81F71AD8CBB1003414A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chesecake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		278E81F81AD8CBB1003414A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chesecake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		278E81FA1AD8CBB1003414A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = chesecakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chesecake.app/chesecake";
+			};
+			name = Debug;
+		};
+		278E81FB1AD8CBB1003414A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = chesecakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chesecake.app/chesecake";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		278E81CD1AD8CBB1003414A6 /* Build configuration list for PBXProject "chesecake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278E81F41AD8CBB1003414A6 /* Debug */,
+				278E81F51AD8CBB1003414A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		278E81F61AD8CBB1003414A6 /* Build configuration list for PBXNativeTarget "chesecake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278E81F71AD8CBB1003414A6 /* Debug */,
+				278E81F81AD8CBB1003414A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		278E81F91AD8CBB1003414A6 /* Build configuration list for PBXNativeTarget "chesecakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278E81FA1AD8CBB1003414A6 /* Debug */,
+				278E81FB1AD8CBB1003414A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		278E81D91AD8CBB1003414A6 /* chesecake.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				278E81DA1AD8CBB1003414A6 /* chesecake.xcdatamodel */,
+			);
+			currentVersion = 278E81DA1AD8CBB1003414A6 /* chesecake.xcdatamodel */;
+			path = chesecake.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 278E81CA1AD8CBB0003414A6 /* Project object */;
+}
