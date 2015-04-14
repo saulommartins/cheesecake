@@ -4,3 +4,4 @@ pod 'AFNetworking'
 
 use_frameworks!
 pod 'Alamofire', '~> 1.1'
+pod 'SWTableViewCell', '~> 0.3.7'
